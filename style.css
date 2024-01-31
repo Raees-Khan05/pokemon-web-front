@@ -1,0 +1,333 @@
+
+.butter{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 50px;
+    width: 100%;
+    /* background-color: lightcyan; */
+
+}
+
+.children_1{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    /* width: 80px; */
+    height: 60px;
+    width: 70px;
+    
+}
+
+.children_1:hover{
+    background-color: rgb(136, 136, 136);
+    width: 100px;
+    text-align: center;
+}
+
+
+
+.children_2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.children_2:hover{
+    background-color: rgb(255, 107, 53);
+    width: 90px;
+    text-align: center;
+}
+
+.children_3{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.children_3:hover{
+    background-color: orange;
+    width: 100px;
+    
+}
+
+.children_4{
+    display: flex;
+    flex-direction: column;
+    
+}
+.children_4:hover{
+    background-color: yellow;
+    width: 90px;
+}
+
+
+.children_5{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.children_5:hover{
+    background-color:rgb(42, 209, 42);
+    width: 90px;
+    text-align: center;
+}
+
+.children_6{
+    display: flex;
+    flex-direction: column;
+    
+}
+.children_6:hover{
+    background-color: lightblue;
+    width: 90px;
+    text-align: center;
+}
+
+.children_7{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.children_7:hover{
+    background-color: rgb(65, 65, 252);
+    width: 90px;
+    text-align: center;
+}   
+
+span{
+    /* padding-left: 7px; */
+    padding-top: 15px;
+}
+
+
+#one{
+    height: 60px;
+}
+
+
+
+#two{
+    height: 60px;
+}
+
+#three{
+    height: 60px;
+}
+
+
+#four{
+    height: 60px;
+}
+
+
+#five{
+    height: 60px;
+}
+
+
+#six{
+    height: 60px;
+}
+
+
+#two{
+    height: 60px;
+}
+
+
+#seven{
+    height: 60px;
+}
+
+.butter>div>img{
+    height: 80px;
+    /* display: flex; */
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50px;
+    margin: 0px auto;
+    background-color: rgba(255, 192, 203, 0.575);
+    align-items: center;
+    justify-content: center; 
+   
+}  */
+
+/* 
+.nav:hover{
+    background-color: gray;
+    color: white;
+}
+
+
+ul{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    list-style: none;
+
+}
+
+li{
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+li:hover{ */
+    /* background-color: aqua; */
+   /* transition: 1.1s;
+} */
+
+
+/* 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul:hover{
+
+ 
+ transform: scale(1.02);
+ transition: 0.6s;
+}
+
+
+a:hover{
+
+color: white;
+background-color: red; */ 
+
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: repeat(1,1fr); */
+    background-color: #eee;
+    row-gap: 15px;
+    column-gap: 20px;
+    width: 700px;
+    height: 600px;
+    /* margin-left: 300px;
+    margin-top: 100px; */
+    margin: 40px auto;
+    
+}
+
+
+.child{
+    border: 2px solid black;
+    height: 150px;
+    
+    width: 200px;
+}
+
+.container>div>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    border-radius: 12px;
+    /* border: 2px solid black; */
+
+}
+
+
+.child-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 350px;
+   
+    
+   
+}
+
+
+.child-2{
+    height: 170px;
+}
+
+
+.child-3{
+    height: 190px;
+}
+
+
+.child-4{
+    height: 200px;
+}
+
+
+.child-5{
+    height: 200px;
+}
+
+
+.child-6{
+    height: 140px;
+}
+
+
+.container>div:hover{
+    transform: scale(1.04);
+    transition-duration: 0.4s;
+    padding-bottom: 10px;
+}
+
+
+@media (max-width:800px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        /* width: 98%; */
+        text-align: center;
+        row-gap: 30px;
+        }
+    }
+    
+   
+
+    @media (max-width:650px) {
+        .container {
+            grid-template-columns: repeat(1, 1fr);
+            /* width: 98%; */
+            text-align: center;
+            row-gap: 10px;
+            width: 300px;
+            align-items: center;
+            justify-content: center;
+        }
+          
+        .child-1{
+            /* height: 170px; */
+            align-items: center;
+            
+
+        }
+        
+
+}
